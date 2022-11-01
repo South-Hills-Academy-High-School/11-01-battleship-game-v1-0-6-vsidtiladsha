@@ -89,6 +89,11 @@ function isPlayerXWinner (enemyBoats: Sprite[][], hitOrMissPX: Sprite[]) {
     }
     return killCount
 }
+function isattackingtwice (boomspritearrayPX: any[]) {
+    for (let value of boomspritearrayPX) {
+    	
+    }
+}
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     if (moveBoatFlag == 3) {
         if (currentPlayer == "Player1") {
